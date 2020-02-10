@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    width: 40%;
+    min-height: 96.1vh;
+    display: block;
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.left{
+    height: auto;
+    width: 70%;
+}
+
+.image-left{
+    width: 100%;
+    height: 100%;
+}
+
+.formul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    }
+
+    .champ-imput{
+        height: 100%;
+        width: 500px;
+        border-radius: 10px;
+        background: 0 0;
+    }
+
+   .label-imput{
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #999;
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    padding-left: 10px;
+    top: 30px;
+    transition: .9s;
+   }
+
+   .champ-imput:focus+ .label-imput, .champ-imput:valid+ .label-imput{
+      color: red;
+      top: 0px;
+}
+
+   .content-imput{
+    height: 80px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 50px;
+   }
+   
+   .cont-login{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .login{
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: #6675df;
+        font-family: Montserrat-Bold;
+        font-size: 12px;
+        color: rgb(7, 6, 6);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .login:hover{
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: #030303;
+        color: cornsilk;
+    }
+
+    .txt1{
+        font-family: Montserrat-Regular;
+        font-size: 13px;
+        line-height: 1.4;
+        color: #555;
+        font-size: 17px;
+    }
+
+    .txt0{
+    width: 100%;
+    display: block;
+    font-family: Poppins-Regular;
+    font-size: 30px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    }
+
+    .txt2 {
+        font-family: Montserrat-Regular;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #999;
+    }
+    
+    .div-txt2{
+        text-align: center;
+        padding: 35px;
+    }
+
+    .div-logos{
+        display: flex;
+        justify-content: center;
+    }
+    .logo:hover{
+           background: black;
+    }
+
+    .choix{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    }
+
+    @media screen and (max-width: 1100px){
+        .image-left{
+           display: none;
+        }
+    }
